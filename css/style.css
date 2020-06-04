@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+
+body {
+    background-image: url('https://live.staticflickr.com/3772/19954826630_df4860ea0f_b.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+h2 span {
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#unread {
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 10px;
+    border-width: 1px 0px;
+    border-style: solid;
+    padding: 5px 0px;
+}
+
+section{
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid black;
+    padding: 9px 0px;
+}
+
+.email {
+    background-color: #b3b6ba   ;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.greyText {
+    color: grey;
+}
+
+#readEmail {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+}
